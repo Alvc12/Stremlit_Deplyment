@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="Driver Behavior Detection System")
 
-model_path = "C:/Users/Alano/Desktop/streamlit_deploy/best (2).pt"
+model_path = "./best (2).pt"
 ocr_model = PaddleOCR(use_angle_cls=True, lang='en')
 
 if os.path.exists(model_path):
