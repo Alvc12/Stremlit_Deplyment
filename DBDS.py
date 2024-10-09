@@ -210,7 +210,7 @@ model_detection()
 
 st.sidebar.subheader("Driver Statistics")
 
-st.sidebar.subheader("Using a phone during driving")
+st.sidebar.subheader("Using A Phone During Driving")
 labels1 = ['Using', 'Not Using']
 sizes1 = [53.6, 46.4]
 colors1 = ['#ff9999', '#66b3ff']
