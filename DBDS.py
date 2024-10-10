@@ -31,7 +31,7 @@ st.sidebar.title("Driver Behavior Detection System")
 input_option = st.sidebar.selectbox("Select Detection Type", ("Image Processing", "Video Processing", "Camera Processing"))
 
 def send_sms(custom_message):
-    conn = http.client.HTTPSConnection("9klkx3.api.infobip.com")
+    conn = http.client.HTTPSConnection("wggvn1.api.infobip.com")
     payload = json.dumps({
         "messages": [
             {
@@ -42,7 +42,7 @@ def send_sms(custom_message):
         ]
     })
     headers = {
-        'Authorization': 'App 86cde8061a25db1d5d0ec2b667c11951-0df99321-d263-444f-abb5-879f95519e9d',
+        'Authorization': '3c4ff531727794c000d672651e18fafc-3e724318-2acc-4258-8b3f-263f972918b0',
         'Content-Type': 'application/json',
         'Accept': 'application/json'
     }
